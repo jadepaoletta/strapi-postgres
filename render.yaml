@@ -6,7 +6,6 @@ services:
     buildCommand: yarn install && yarn build
     startCommand: yarn start
     healthCheckPath: /_health
-    notifyOnFail: notify
     disk:
       name: strapi-uploads
       mountPath: /opt/render/project/src/public/uploads
