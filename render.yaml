@@ -23,6 +23,8 @@ services:
         generateValue: true
       - key: ADMIN_JWT_SECRET
         generateValue: true
+      - key: RANDOM_KEY
+        generateValue: true
 
 databases:
   - name: strapi
